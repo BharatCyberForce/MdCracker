@@ -30,7 +30,7 @@ fn cracker(target: &str, passlist: &str) -> Option<String> {
 fn icfbanner(){
     let banner=r#"
     ========================================
-    |            Md5Cracker V1.1           |
+    |               MdCracker              |
     |    Developed by: Indian Cyber Force  |
     ========================================"#;
 

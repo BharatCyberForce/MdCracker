@@ -18,7 +18,8 @@ fn cracker(target: &str, passlist: &str) -> Option<String> {
         let hashed = compute(&password);
         
         if hashed == target {
-            println!("{}", password.green());
+            println!("{}","[+] Password is Found ".green());
+            print!("{}", password.green());
             return Some(password);
         }
     }
@@ -38,6 +39,7 @@ fn icfbanner(){
 }
 fn main() {
     icfbanner();
+    println!("{}","Processing Password list and Trying to Crack HasH".yellow());
     let args: Vec<String> = env::args().collect();
     if args.len() != 3 {
         println!("{} <hash> <passwordlist.txt>", args[0]);

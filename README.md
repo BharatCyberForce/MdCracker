@@ -1,6 +1,6 @@
 # MdCracker
 
-**MdCracker** is a blazing-fast MD5 hash cracking tool written in **Rust**.  
+**MdCracker** is a fastest MD5 hash cracking tool written in **Rust**.  
 It uses a wordlist-based dictionary attack to crack MD5 hashes with high performance and simplicity.
 
 ---
